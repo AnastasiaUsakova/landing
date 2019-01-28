@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400i,700|Work+Sans:400,500,700');
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.icon {
+    margin: 30px 0 0 0;
+}
+
+/* header */
+.content {
+    margin: 0px 250px;
+}
+
+#header {
+    background-color: #636363;
+    display: grid;
+}
+
+#navigate .icon {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#hero-banner {
+    padding: 100px 0;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #636363;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+#hero-banner small {
+    font: bold 10pt Work Sans;
+    letter-spacing: 3px;
+}
+
+#hero-banner h1 {
+    font: bold 35pt PlayFair Display;
+    margin-top: 0px;
+}
+
+#hero-banner h2 {
+    font: italic 35pt PlayFair Display;
+    margin-top: 0px;
+}
+
+#hero-banner .icon {
+    margin: 80px 0 0 0;
+}
+
+/* content */
+#about {
+    padding: 70px 0 0 0;
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+#about b {
+    font: 30pt PlayFair Display;
+    color: #212121;
+}
+
+#about p {
+    line-height: 25px;
+    font: 12pt Work Sans;
+    color: #5F5F5F;
+}
+
+#about .icon {
+    margin: 30px 0 5px 0;
+}
+
+#data {
+    background: black center center no-repeat;
+    text-align: center;
+}
+
+#data .icon {
+    margin: 50px 0;
+}
+
+
+/* BEST PROJECTS */
+#best-proj {
+    padding: 70px 85px;
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+#best-proj b {
+    font: 40px PlayFair Display;
+    color:#212121;
+}
+
+#best-proj p {
+    line-height: 25px;
+    font: 15px Work Sans;
+    color:#5F5F5F;
+    margin-bottom: 40px;
+}
+
+#best-proj table td,th {
+    border: 15px solid #F6F6F6;
+}
+
+#best-proj table td {
+    height: 200px;
+    width: 300px;
+    background-color: #D9D9D9;
+}
+
+#best-proj table td.content {
+    background-color: #FFFFFF;
+}
+
+#best-proj table b {
+    font: bold 25px PlayFair Display;
+    color:#212121;
+}
+
+#best-proj table i {
+    font: 15px Work Sans;
+    color:#212121;
+}
+
+#advice {
+    padding: 100px 0;
+    background: black center center no-repeat;
+    text-align: center;
+    background-color: #171717;
+}
+
+#advice p {
+    font: italic 25px PlayFair Display;
+    color: #FFFFFF;
+}
+
+#advice h1 {
+    font: 14px Work Sans;
+    color: #FFFFFF;
+}
+
+#partners {
+    padding: 60px 0;
+    background-color: #FFFFFF;
+}
+
+#partners .list {
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#blog {
+    padding-top: 70px;
+    background-color: #F6F6F6;
+}
+
+#blog .info {
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+
+#blog b {
+    font: 37px PlayFair Display;
+    color: #212121;
+}
+
+#blog h1 {
+    line-height: 25px;
+    font: 13px Work Sans;
+    color: #5F5F5F;
+}
+
+#blog .icon {
+    display: block;
+    margin: 0 auto;
+}
+
+#blog .all {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 50px;
+}
+
+#blog .card {
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    height: 500px;
+}
+
+#blog .card .icon {
+    margin: -2px 0 0 0;
+    padding: 0px;
+    height: 70%;
+    background-color: #D9D9D9;
+}
+
+#blog .card .icon .title {
+    position: relative;
+    top: 87%;
+    left: 4%;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    background-color: #252525;
+    height: 28px;
+    width: 100px;
+}
+
+#blog .card .icon .title h2 {
+    margin-top: 2px;
+    font: 15px Work Sans;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#blog .card .text {
+    margin: 15px 20px;
+}
+
+#blog .card .text h3 {
+    margin-top: -20px;
+    text-align: left;
+    font: 14px Work Sans;
+    color:#5F5F5F;
+}
+
+#blog .card .text h4 {
+    text-align: left;
+    font: 20px PlayFair Display;
+}
+
+#blog .card .text h5 {
+    margin-top: -45px;
+    text-align: left;
+    font: bold 12px Work Sans;
+}
+
+#contact {
+    background-color: #F6F6F6;
+}
+
+#contact .form {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+#contact .form .info {
+    text-align: left;
+    padding: 70px 0 0 100px;
+}
+
+#contact .form table td,th {
+    border: 11px solid #F6F6F6;
+}
+
+#contact .form table td {
+    font-family: Work Sans;
+    font-size: 15px;
+    color: #9F9F9F;
+    padding: 0 15px 0 15px;
+    background-color: #FFFFFF;
+}
+
+#contact .form input {
+    border: none;
+}
+
+#contact .form textarea {
+    border: none;
+    outline: none;
+}
+
+#contact .form .send {
+    text-align: center;
+    margin: 15px;
+    font-family: Work Sans;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #252525;
+    height: 47px;
+    width: 180px;
+}
+
+#contact .form table {
+    margin: 90px 100px 0 50px;
+}
+
+#contact .form b {
+    color:#212121;
+    font: bold 15px Work Sans;
+}
+
+#contact .form p {
+    color :#5F5F5F;
+    font: 15px Work Sans;
+}
+
+#contact .form h3 {
+    font: 50px bold PlayFair Display;
+    color: #212121;
+    margin-top: -30px;
+}
+
+#contact .form h5 {
+    line-height: 25px;
+    color: #5F5F5F;
+    margin-top: -60px;
+    margin-bottom: 20px;
+    font: 16px Work Sans;
+}
+
+#contact .form h6 {
+    margin: 20px 0 0 50px;
+}
+
+/* footer */
+#footer {
+    background-color: #0c0c0c;
+}
+
+#footer .info {
+    padding: 70px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 50px;
+}
+
+#footer .info .tab h1 {
+    margin: 0;
+    font: 20px PlayFair Display;
+    color: #FFFFFF;
+}
+
+#footer .info .tab h2 {
+    margin: 0 0 30px 0;
+    font: 15px PlayFair Display;
+    color: #FFFFFF;
+}
+
+#footer h3 {
+    margin: 0px;
+    font: 15px Work Sans;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#footer .info .tab h4 {
+    line-height: 20px;
+    color: #FFFFFF;
+    font: 15px Work Sans;
+}
+
+#footer .info .tab ul {
+    margin: 0 0 0 -20px;
+    list-style-image: url("https://i.postimg.cc/ydFM3VkF/tweet.png");
+}
+
+#footer .info .tab li {
+    padding-left: 15px;
+}
+
+#footer .info .tab td {
+    border: 5px solid #0c0c0c;
+    background-color: #7d7d7d;
+    height: 75px;
+    width: 80px;
+}
+
+#footer .info .tab table {
+    margin: 0 0 0-5px;
+}
+
+#footer .creator {
+    padding: 15px;
+}
